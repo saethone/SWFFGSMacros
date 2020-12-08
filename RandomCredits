@@ -1,0 +1,43 @@
+let d = new Dialog({
+    title: "Random Credits",
+    content:'<p>Enter a rough number of credits per player, and the total number of players</p><div>Credits: <input name="credits" class="credits" style="width:40%" type="text" value="25" data-dtype="String" /></div><div>Credits: <input name="players" class="players" style="width:40%" type="text" value="4" data-dtype="String" /></div>',
+    buttons: {
+     one: {
+      icon: '<i class="fas fa-check"></i>',
+      label: "Roll Credits",
+      callback: (html) => {
+         let credits;
+         credits =(parseInt(html.find(".credits").val(), 10));
+         if (isNaN(credits)) {credits = 0;}
+         let players;
+         players = parseInt(html.find(".players").val(), 10);
+         if (isNaN(players)) {players = 1;}
+         let lowcredits;
+         lowcredits = credits * .5;
+         let highcredits;
+         highcredits = credits * 1.25;
+         credits = (Math.floor(Math.random() * (highcredits, lowcredits+1)) + lowcredits);
+         credits = Math.ceil(credits/players)*players;
+         let creditstotal;
+         creditstotal = credits * players;
+         let message;
+         let chatData;
+         message = '<div>The players found <span style="font-weight:bold; background:#FFFF99">' + creditstotal + '</span> Credits! Thats <span style="font-weight:bold; background:#FFFF99">' + credits + '</span> for each of the <span style="font-weight:bold; background:#FFFF99">' + players + '</span> players.</div>';
+         chatData = { 
+             user:game.user.id,
+             speaker:game.user,
+             content:message
+         };
+         ChatMessage.create(chatData, {});
+       }
+     },
+ two: {
+    icon: '<i class="fas fa-times"></i>',
+    label: "Cancel",
+    callback: () => console.log("Closed Credits")
+     }   
+   },
+   default: "two",
+   close: () => console.log("This always is logged no matter which option is chosen")
+ });
+ d.render(true);
