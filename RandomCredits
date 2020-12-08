@@ -1,6 +1,6 @@
 let d = new Dialog({
     title: "Random Credits",
-    content:'<p>Enter a rough number of credits per player, and the total number of players</p><div>Credits: <input name="credits" class="credits" style="width:40%" type="text" value="25" data-dtype="String" /></div><div>Credits: <input name="players" class="players" style="width:40%" type="text" value="4" data-dtype="String" /></div>',
+    content:'<p>Enter a rough number of credits per player, and the total number of players</p><div>Credits: <input name="credits" class="credits" style="width:40%" type="text" value="25" data-dtype="String" /></div><div>Players: <input name="players" class="players" style="width:40%" type="text" value="4" data-dtype="String" /></div>',
     buttons: {
      one: {
       icon: '<i class="fas fa-check"></i>',
