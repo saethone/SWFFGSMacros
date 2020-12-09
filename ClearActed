@@ -1,0 +1,8 @@
+// Gather tokens in the current scene into an array.
+let tokens = canvas.tokens.placeables.filter((token) => token.data);
+for (let count of tokens) {
+   if (game.cub.hasCondition("Acted", count)) {
+         game.cub.removeCondition("Acted", count);
+   }
+}
+  ui.notifications.info("Completed removing Acted from Tokens");
