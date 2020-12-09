@@ -1,0 +1,16 @@
+let firsttoken = token;
+if (firsttoken === undefined || firsttoken === null) {
+     ui.notifications.warn("Please select a token first.");
+}
+
+for (let macroToken of canvas.tokens.controlled) {
+if (macroToken === undefined || macroToken === null) {
+    console.log("macrotoken is null");
+}
+  else {
+       if (game.cub.hasCondition("Acted", macroToken)) {
+          game.cub.removeCondition("Acted", macroToken);}
+         else {
+         game.cub.addCondition("Acted", macroToken);}
+       }
+}
