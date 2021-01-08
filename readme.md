@@ -10,3 +10,6 @@ Toggles a condition from CUB named "Acted" on the selected token(s). Use this on
 
 ## ClearActed
 This clears the CUB condition "Acted" from all tokens on the current scene. Use this at the end of every round to reset everybody's "Acted" state at once. Easy Peasy!
+
+## Hyperspace
+House rules for time and cost of Hyperspace travel, along with a Macro to calculate them. More info is in the readme in that folder.
