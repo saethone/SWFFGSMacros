@@ -48,14 +48,18 @@ Cost	Result Options
 [TR]	The discovery of a new shortcut grants on all future Astrogation checks to use this hyperspace route. Additionally, many organizations and individuals would be willing to pay for such a shortcut, especially if it is on a busy hyperlane.
 
 [TH]	An energy surge from the hyperdrive inflicts one system strain on the ship.
-The character adds [SE] to his next Astrogation check when travelling on this route.
+
+[TH]  The character adds [SE] to his next Astrogation check when travelling on this route.
 
 [TH][TH]	The trip is particularly rough. Each character aboard the vessel suffers 2 strain.
-A piece of debris strikes the ship upon reentry and inflicts 1 hull trauma on the ship.
-Mynocks attached themselves to the ship before the jump or during a realspace stopover. The ship suffers 3 system Strain. Additionally, the PCs might need to remove the mynocks themselves (see page 413 of the Edge of the Empire Core Rulebook).
+
+[TH][TH]	A piece of debris strikes the ship upon reentry and inflicts 1 hull trauma on the ship.
+
+[TH][TH]	Mynocks attached themselves to the ship before the jump or during a realspace stopover. The ship suffers 3 system Strain. Additionally, the PCs might need to remove the mynocks themselves (see page 413 of the Edge of the Empire Core Rulebook).
 
 [TH][TH][TH] or [DE]	On a failed check miscalculations send the ship wildly off course, and it emerges from hyperspace in a system of the GM's choosing or in deep space.
-On a successful check, the presence of a gravity shadow forces the ship out of hyperspace prematurely. The vessel drops out of hyperspace somewhere along the way, and the characters must attempt another Astrogation check to reach their final destination.
+
+[TH][TH][TH] or [DE] On a successful check, the presence of a gravity shadow forces the ship out of hyperspace prematurely. The vessel drops out of hyperspace somewhere along the way, and the characters must attempt another Astrogation check to reach their final destination.
 
 [DE]	The hyperdrive cuts out to avoid a gravity shadow, but it is damaged in the process. Once the vessel exits hyperspace, the hyperdrive is rendered inoperable until repaired.
 
