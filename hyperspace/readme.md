@@ -8,44 +8,57 @@ Once a ship is actually in hyperspace, there is little for the crew and passenge
 Of course, most starships (especially civilian vessels) do not have a Class 1 hyperdrive. To determine the actual travel time of a starship, first determine the hyperdrive travel time. Then, he multiplies this travel time by the hyperdrive’s Class. So, the time for a Class 1 hyperdrive remains the same. However, a ship with a Class 2 hyperdrive would take twice as long to get somewhere, a Class 3 hyperdrive would take three times as long, and so on.
 
 Modifiers	Description
+
 +[BO]	The astrogator has done extra research on charts of the route.
+
 +[BO]	Current location and destination are both on a Major Trade Route
+
 +[SE]	Current location or destination is a half a grid or less away from a Hyperspace Lane
+
 +[DI]	Quick Calculations or Entry into hyperspace under duress, typically while escaping from pursuit
+
 +[DI]	Outdated, corrupt, or counterfeit navigation charts or navicomputer data.
+
 +[DI] per grid	Current location or destination is a grid or further away from a Hyperspace Lane
+
 +[DI]	Ship is lightly damaged (HT and ST < 1/2 of Threshold)
+
 +[DI][DI]	Ship is heavily damaged (HT or ST > 1/2 of Threshold)
+
 +[DI][DI][DI]	Damaged or missing astromech droid or navicomputer
+
 +[AD][AD]	The astrogator has personally run the route recently.
+
 +[TH]	Real-space debris is casting uncharted mass shadows in the route.
+
 +[TH][TH]	A major celestial event impacted the route since the last charting.
+
 Upgrade [DI]	The vessel has a faulty hyperdrive or entered hyperspace while too close to a planet.
-In addition to the items in @JournalEntry[w2O4auXsPFfk2ky3]{Astrogation}, you can use the following options for Dice Symbols
+
+In addition to the items in the Astrogation skill, you can use the following options for Dice Symbols
 
 Cost	Result Options
-[AD]	The character adds [BO] to his next Astrogation check when travelling on this route.
-[AD][AD]	The trip is particularly smooth. Each character aboard the vessel recovers 2 strain.
-[AD][AD][AD] or [TR]	The ship reaches its destination 25% faster. (This option can only be selected once per check).
-[TR]	The discovery of a new shortcut grants on all future Astrogation checks to use this hyperspace route. Additionally, many organizations and individuals would be willing to pay for such a shortcut, especially if it is on a busy hyperlane.
-[TH]	
-An energy surge from the hyperdrive inflicts one system strain on the ship.
 
+[AD]	The character adds [BO] to his next Astrogation check when travelling on this route.
+
+[AD][AD]	The trip is particularly smooth. Each character aboard the vessel recovers 2 strain.
+
+[AD][AD][AD] or [TR]	The ship reaches its destination 25% faster. (This option can only be selected once per check).
+
+[TR]	The discovery of a new shortcut grants on all future Astrogation checks to use this hyperspace route. Additionally, many organizations and individuals would be willing to pay for such a shortcut, especially if it is on a busy hyperlane.
+
+[TH]	An energy surge from the hyperdrive inflicts one system strain on the ship.
 The character adds [SE] to his next Astrogation check when travelling on this route.
 
-[TH][TH]	
-The trip is particularly rough. Each character aboard the vessel suffers 2 strain.
-
+[TH][TH]	The trip is particularly rough. Each character aboard the vessel suffers 2 strain.
 A piece of debris strikes the ship upon reentry and inflicts 1 hull trauma on the ship.
-
 Mynocks attached themselves to the ship before the jump or during a realspace stopover. The ship suffers 3 system Strain. Additionally, the PCs might need to remove the mynocks themselves (see page 413 of the Edge of the Empire Core Rulebook).
 
-[TH][TH][TH] or [DE]	
-On a failed check miscalculations send the ship wildly off course, and it emerges from hyperspace in a system of the GM's choosing or in deep space.
-
+[TH][TH][TH] or [DE]	On a failed check miscalculations send the ship wildly off course, and it emerges from hyperspace in a system of the GM's choosing or in deep space.
 On a successful check, the presence of a gravity shadow forces the ship out of hyperspace prematurely. The vessel drops out of hyperspace somewhere along the way, and the characters must attempt another Astrogation check to reach their final destination.
 
 [DE]	The hyperdrive cuts out to avoid a gravity shadow, but it is damaged in the process. Once the vessel exits hyperspace, the hyperdrive is rendered inoperable until repaired.
+
 [DE][DE]	The ship collides with a planet's gravity shadow or similar phenomenon. This forces the ship out of hyperspace (probably at a very inconvenient location). Further, the ship immediately suffers a Single Critical Hit with a +30 to the result on Table 7-9: Critical Hit Result (see page 244 of the Edge of the Empire Core Rulebook).
 
 ## Docking Fees and Operating Cost
